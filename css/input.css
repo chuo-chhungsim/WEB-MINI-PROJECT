@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
+
+@font-face {
+  font-family: "circular-std";
+  src: url(../fonts/circular-std-medium-500.ttf);
+}
+@theme {
+  --font-poppins: "poppins";
+  --font-YesterYear: "Yesteryear";
+  --font-circular-std: "circular-std";
+  --font-Volkhov: "Volkhov";
+}
+html,
+body {
+  /* Target both html and body */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.writing-mode {
+  writing-mode: sideways-lr;
+}
